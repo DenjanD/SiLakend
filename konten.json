@@ -1,0 +1,74 @@
+{
+    "menu":[
+        {
+            "judul":"<a>Diagram Alir Aplikasi</a>",
+            "nama":"<h2>Diagram Alir Aplikasi SILaKend<h2>",
+            "isi":"<h2>Diagram Alir Aplikasi SILaKend</h2><p>Berikut ini merupakan gambar dari alur aplikasi SILaKend</p><center><img src=\"http://localhost/myciroyal/flowchart.jpg\"></center><div class='line'></div>"
+        },
+        {
+            "judul":"<a>Login Aplikasi</a>",
+            "nama":"<h2>Login Aplikasi</h2>",
+            "isi":"<h2>Login Aplikasi</h2><h2>1. Mengisi Nama</h2><p>Pada tampilan login, ketikan nama Anda. Gunakan bantuan mouse untuk memilih.</p><img src='http://localhost/myciroyal/1. Login/1. isi kolom nama.PNG'><div class='line'></div><h2>2. Mengisi Password</h2><p>Isi password Anda dan gunakan bantuan tombol mata untuk memastikan password yang sudah diketik sudah benar.</p><img src='http://localhost/myciroyal/1. Login/2. isi kolom password.PNG'><div class='line'></div><h2>3. Ceklis tombol 'Remember me' untuk menyimpan Nama dan Password login Anda</h2><p>Ceklis tombol 'Remember me' jika Anda tidak ingin mengulang mengetikan password saat login kembali.</p><img src='http://localhost/myciroyal/1. Login/3. ingat saya.png'><div class='line'></div><h3>4. Akses Login</h3><p>Klik tombol login untuk masuk ke dalam dashboard aplikasi.</p><img src='http://localhost/myciroyal/1. Login/4. login.png'><div class='line'></div><h3>5. Tampilan Dashboard</h3><p>Tampilan ini berisi tentang informasi order kendaraan tujuh hari ke depan dan informasi statistik pelayanan kendaraan dinas.</p><img src='http://localhost/myciroyal/1. Login/5. dashboard.PNG'>"
+        },
+        {
+            "judul":"<a>Tampilan User (Pegawai)</a>",
+            "nama":"<h2>Membuat Order Peminjaman Kendaraan</h2>",
+            "isi":"<h2>Mengisi formulir peminjaman</h2><p>1. Pilih menu Order Peminjaman untuk mengisi formulir.</p><img src='http://localhost/myciroyal/2. Order Peminjaman/1. order.png'> <p>2. Klik tombol Buat Order untuk membuka form order peminjaman.</p><img src='http://localhost/myciroyal/2. Order Peminjaman/2. modal_order.PNG'><p></p><img src='http://localhost/myciroyal/2. Order Peminjaman/3. modal_order_openend.PNG'><p>3. Isi formulir dengan lengkap. Setelah lengkap, akhiri dengan mengklik tombol Order.</p><img src='http://localhost/myciroyal/2. Order Peminjaman/4. order_done.PNG'><p>4. Pastikan order Anda sudah masuk ke dalam order peminjaman dengan status diajukan.</p><img src='http://localhost/myciroyal/2. Order Peminjaman/5. riwayat_order.PNG'><div class='line'></div><h2>Status order yang diajukan</h2><p>Setiap order yang diajukan memiliki status tersendiri. Berikut merupakan penjelasan dari statuspada order peminjaman yang diajukan.</p><center><img src='http://localhost/myciroyal/2. Order Peminjaman/6. status_order.png'></center><p></p><div class='line'></div><h2>Membatalkan order yang diajukan</h2><p>Jika Anda merubah pikiran Anda untuk tidak melakukan order tetapi sudah terlanjur melakukanorder, Anda bisa membatalkan order yang Anda ajukan dengan mengklik tombol di bawah. Anda hanyabisa membatalkan order Anda yang berstatus 'Diajukan' dan 'Diterima' saja.</p><img src='http://localhost/myciroyal/2. Order Peminjaman/7. batal_order.PNG'><div class='line'></div><h3>Melaksanakan Keberangkatan Order Sendiri</h3><p>Jika Anda melakukan order peminjaman kendaraan tanpa diberikan supir oleh Ka. Sub. Bagina TU/Umum,Anda bisa melaksanakan order peminjaman dengan membawa kendaraannya oleh Anda sendiri. Jika hal ituyang terjadi, Anda harus melakukan konfirmasi keberangkatan dengan mengklik tombol berikut.<br><b>Catatan :</b>Anda hanya boleh mengklik tombol ini hanya di saat Anda sudah benar-benar akan berangkat.</p><img src='http://localhost/myciroyal/2. Order Peminjaman/8. berangkat_sendiri.PNG'>"
+        },
+        {
+            "judul":"<a>Tampilan Verifikator (Atasan Langsung)</a>",
+            "nama":"<h2>Memvalidasi order yang masuk</h2>",
+            "isi":"<h2>Memverifikasi usulan order pegawai</h2><p>1. Klik menu Validasi Order Masuk.</p><img src='http://localhost/myciroyal/3. Validasi Order/1. validasi.PNG'> <p>2. Untuk memverifikasi, tekan tombol verifikasi pada kolom rincian.</p><img src='http://localhost/myciroyal/3. Validasi Order/2. rincian.PNG'><p> 3. Pastikan Nomor akun order dan tujuan perjalanan serta tanggal dan lama peminjaman sudah benar.</p><img src='http://localhost/myciroyal/3. Validasi Order/3. rincian_open.PNG'><p>4. Bila setuju, klik tombol Setuju. Bila perlu perbaikan atau tolak, klik tombol Tolak.</p><img src='http://localhost/myciroyal/3. Validasi Order/4. terima_tolak.PNG'><p>5. Jika Anda menolak suatu order, Anda diharuskan mengisi kolom alasan penolakan yang akan muncul seperti gambar di bawah. </p><img src='http://localhost/myciroyal/3. Validasi Order/5. order_tolak.PNG'><p>6. Setelah proses validasi selesai, order yang baru saja divalidasi akan dihilangkan dari tabel validasi Anda karena proses validasi telah selesai.</p>"
+        },
+        {
+            "judul":"<a>Penentuan pengemudi dan kendaraan</a>",
+            "nama":"<h2>Memvalidasi order sekaligus menentukan supir dan kendaraannya</h2>",
+            "isi":"<h2>Memvalidasi order sekaligus menentukan supir dan kendaraannya</h2><p>1. Setiap order yang diajukan, diperlukan penentuan supir yang ditugaskan serta kendaraan yang dipinjamkan. Untuk melalukan hal tersebut, klik tombol Rincian pada order yang akan divalidasi. Lalu akan muncul tampilan seperti berikut.</p><img src='http://localhost/myciroyal/4. Validasi Supir_Kendaraan/1. valid_full.png'><p>2. Pada tampilan validasi kali ini, validator harus menentukan siapa yang akan menjadi supir untuk order tersebut, serta kendaraan yang akan dipinjamkan kepada order tersebut. Klik kolom seperti gambar di bawah untuk menentukan supir dan kendaraannya. Jika sudah, klik tombol 'Setujui' untuk menyelesaikan validasi.</p><img src='http://localhost/myciroyal/4. Validasi Supir_Kendaraan/1. valid b.PNG'><p>3. Setelah proses validasi telah selesai dilaksanakan, order yang sudah divalidasi oleh Anda bisa Anda ubah supir ataupun kendaraannya apabila terdapat perubahan yang tidak terpikirkan sebelumnya. Data supir dan kendaraan bisa diubah selama order tersebut belum melaksanakan keberangkatan.</p><img src='http://localhost/myciroyal/4. Validasi Supir_Kendaraan/2. ralat_valid.PNG'>"
+        },
+        {
+            "judul":"<a>Rekaman order kendaraan</a>",
+            "nama":"<h2>Memantau Riwayat Order Peminjaman</h2>",
+            "isi":"<h2>Memantau Riwayat Order Peminjaman</h2><p>Setiap order yang berhasil dilaksanakan, order-order tersebut akan terekam jejaknya di tabel riwayat order. Pada tabel riwayat order peminjaman, data yang ditampilkan adalah data order peminjaman yang memiliki status 'Diterima', 'Berangkat', dan 'Selesai'.</p><img src='http://localhost/myciroyal/5. Riwayat_Order/1. riwayat.PNG'><p>Pada tampilan tabel riwayat order ini, data yang ada diurutkan berdasarkan tanggal peminjaman order dari yang paling terdahulu hingga yang paling terbaru. Untuk mencari data riwayat order yang spesifik, gunakan kolom pencarian yang berada di atas tabel untuk diketikkan kata kunci data yang akan dicari. Contoh : Nendi Sudrajat, Fortuner, Jakarta. </p><img src='http://localhost/myciroyal/5. Riwayat_Order/2. riwayat_cari.PNG'>"
+        },
+        {
+            "judul":"<a>Status Tugas Pengemudi</a>",
+            "nama":"<h2>Memantau Data Pengemudi/Supir</h2>",
+            "isi":"<h2>Memantau Data Pengemudi/Supir</h2><p>Pada menu Data Pengemudi disajikan data-data pegawai yang berperan sebagai supir di aplikasi SiLaKend. Pada tabel data supir terlihat status dari masing-masing nama supir yang ada.</p><img src='http://localhost/myciroyal/6. Pengemudi/1. tabel.PNG'> <p>Untuk status supir yang 'Tidak Bertugas' adalah supir yang sedang tidak melaksanakan order peminjaman atau sedang tidak memiliki tugas bepergian. Sedangkan supir yang berstatus 'Bertugas' adalah supir yang sedang melaksanakan order peminjaman atau supir yang sudah diberikan tugas untuk bepergian di waktu yang akan datang.</p>"
+        },
+        {
+            "judul":"<a>Data kendaraan</a>",
+            "nama":"<h2>Mengatur Data Kendaraan</h2>",
+            "isi":"<h2>Mengatur Data Kendaraan</h2><p>Pada menu Data Kendaraan ditampilkan kumpulan data kendaraan dinas Polman dalam bentuk tabel. Setiap data kendaraan pada tabel tersebut bisa diubah nilai jumlah tempuh kilometernya, serta masa berlaku STNK kendaraan tersebut.</p><img src='http://localhost/myciroyal/7. Kendaraan/1. tabel.PNG'><p>Untuk mengubah data kilometer tempuh serta masa berlaku STNK suatu kendaraan, klik tombol Edit pada data kendaraan yang akan diubah, lalu akan muncul tampilan seperti berikut.</p><img src='http://localhost/myciroyal/7. Kendaraan/2. edit_full.png'><p>Untuk menyimpan perubahan data, klik tombol 'Ubah Data' jika data sudah diisi dengan benar.</p><img src='http://localhost/myciroyal/7. Kendaraan/2. edit bc.PNG'>"
+        },
+        {
+            "judul":"<a>Laporan data order</a>",
+            "nama":"<h2>Membuat Laporan Penggunaan Kendaraan Dinas</h2>",
+            "isi":"<h2>Membuat Laporan Penggunaan Kendaraan Dinas</h2><p>1. Untuk membuat laporan penggunaan kendaraan dinas, klik menu 'Laporan'.</p><img src='http://localhost/myciroyal/8. Laporan/1. menu.PNG'><p>Pada tampilan menu 'Laporan' terdapat beberapa <i>filter</i> untuk membuat laporan yang diinginkan di antaranya Rentang Tanggal Peminjaman, Nama Kendaraan, Nama Pengemudi, dan Alasan Peminjaman. Ke-4 kategori pembuatan laporan tersebut berfungsi untuk memunculkan data-data sesuai apa yang diisi oleh Anda pada kolom-kolom <i>filter</i> tersebut. </p><p>Selain memunculkan data-data sesuai <i>filter</i> yang diinputkan, Pada menu 'Laporan' ini juga akan memunculkan grafik statistik penggunaan kendaraan dinas sesuai rentang tanggal yang diinputkan.</p><p>2. Untuk memunculkan data penggunaan kendaraan dinasnya, klik tombol 'Tampilkan Data'. Maka akan muncul satu tabel berisi data perbaris, lalu diikuti dengan grafik statistik di bawah nya.</p><img src='http://localhost/myciroyal/8. Laporan/2. tabel.PNG'><p>Grafik statistik yang muncul bisa didownload dengan mengklik tombol hijau bertuliskan 'Download Grafik'</p><img src='http://localhost/myciroyal/8. Laporan/3. grafik.PNG'><p>3. Untuk mendowload data tabel hasil <i>filter</i> di atas grafik statistik terdapat 2 (dua) tombol yang bisa digunakan yaitu tombol 'PDF' dan 'Excel'. Dua tombol tersebut berfungsi untuk mengubah data dari bentuk tabel pada halaman web menjadi format PDF maupun Excel.</p><img src='http://localhost/myciroyal/8. Laporan/pdfexcel.PNG'>"
+        },
+        {
+            "judul":"<a>Tampilan Pengemudi</a>",
+            "nama":"<h2>Menerima dan Melaksanakan Tugas Order Kendaraan Dinas</h2>",
+            "isi":"<h2>Menerima dan Melaksanakan Tugas Order Kendaraan Dinas</h2><p>1. Klik menu 'Tugas Masuk', maka akan muncul halaman yang berisi tabel yang memuat order.</p><img src='http://localhost/myciroyal/9. Supir/1. tugas.PNG'><p>Pada halaman ini akan ditampilkan order yang ditugaskan kepada pengemudi yang bersangkutan. </p><p>2. Pengemudi bertugas untuk melakukan konfirmasi keberangkatan atas order yang ditugaskan. Untuk melakukan konfirmasi, klik tombol Detail Tugas pada order yang akan dilaksanakan.</p><img src='http://localhost/myciroyal/9. Supir/1. tugas_tombol.PNG'><p>Lalu akan muncul tampilan seperti berikut.</p><img src='http://localhost/myciroyal/9. Supir/3.detail_full.png'><p>3. Proses konfirmasi keberangkatan dapat dilakukan pada saat pengemudi dan peminjam siap untuk berangkat. Klik tombol 'Laksanakan Keberangkatan' untuk melakukan konfirmasi keberangkatan.</p><img src='http://localhost/myciroyal/9. Supir/2.detail_b.PNG'>"
+        },
+        {
+            "judul":"<a>Tampilan Input Kilometer (Satpam)</a>",
+            "nama":"<h2>Memasukkan Jumlah Kilometer (Km) Kendaraan Dinas yang pulang</h2>",
+            "isi":"<h2>Input Jumlah Kilometer (Km) Kendaraan Dinas yang tiba</h2><p>1. Klik tombol Input Km pada order yang kendaraan nya sudah tiba ke Polman.</p><img src='http://localhost/myciroyal/10. Satpam/1. tabel.PNG'> <p>Lalu akan muncul tampilan seperti berikut.</p><img src='http://localhost/myciroyal/10. Satpam/2. input.PNG'><p>2. Ketikan jumlah kilometer pada kolom kilometer sesuai dengan kilometer tempuh kendaraan.</p><p>3. Jika sudah diisi dengan benar, klik tombol 'Masukan Data' untuk menyelesaikan input.</p><img src='http://localhost/myciroyal/10. Satpam/3. selesai.PNG'>"
+        },
+        {
+            "judul":"<a>Membatalkan Order</a>",
+            "nama":"<h2>Membatalkan Order</h2>",
+            "isi":"<h2>Membatalkan Order</h2><p>Aksi ini dilakukan oleh pengguna aplikasi yang mengajukan order.</p><p>Klik tombol berwarna merah pada kolom Batal/Berangkat untuk membatalkan order tersebut.</p><img src='http://localhost/myciroyal/2. Order Peminjaman/7. batal_order.PNG'>"
+        },
+        {
+            "judul":"<a>Menolak Order</a>",
+            "nama":"<h2>Menolak Order</h2>",
+            "isi":"<h2>Menolak Order</h2><p>Aksi ini dilakukan oleh Verifikator (Atasan Langsung) dan Validator (Ka. Sub. Bag. Umum)</p><p>Untuk menolak order yang Anda terima, klik tombol Tolak pada bagian bawah tampilan Detail Order. Anda harus mengisi alasan penolakan order terhadap order tersebut.</p><img src='http://localhost/myciroyal/3. Validasi Order/5. order_tolak.PNG'>"
+        },
+        {
+            "judul":"<a>Melaksanakan Order Sendiri</a>",
+            "nama":"<h2>Melaksanakan Order Sendiri</h2>",
+            "isi":"<h2>Melaksanakan Order Sendiri</h2><p>Aksi ini dilakukan oleh peminjam yang membawa kendaraannya sendiri</p><p>Klik tombol konfirmasi keberangkatan pada order yang akan Anda laksanakan.</p><img src='http://localhost/myciroyal/2. Order Peminjaman/8. berangkat_sendiri.PNG'>"
+        }
+    ]
+}
